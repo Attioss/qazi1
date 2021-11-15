@@ -103,19 +103,6 @@ def add_string():
     print([person + ' dumped me.' for person in names])
 
 
-def movies():
-
-    movies_and_ratings = {"Interstellar": 9, "Dark Knight": 8, "50 Shades": 3, "50 Shades Darker": 2,
-                          "50 Shades Darkest": 1}
-
-    l = []
-    for movie in movies_and_ratings:
-        if movies_and_ratings[movie] > 6:
-            l.append(movie)
-        print(l)
-        print([movie for movie in movies_and_ratings if movies_and_ratings[movie] > 6])
-
-
 def search_complex_data_types():
 
     text = "random string. MyName123@website.com . some more randoom text. YourName888@company.net"
@@ -125,7 +112,7 @@ def search_complex_data_types():
 
 
 def main():
-    digits()
+    search_complex_data_types()
 
 
 if __name__ == "__main__":
